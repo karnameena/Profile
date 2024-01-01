@@ -1,0 +1,707 @@
+<!DOCTYPE html><html lang="en" style="--vh:5.69px;" data-scrapbook-source="https://withkoji.com/@Gunakarna" data-scrapbook-create="20230128073720765" data-scrapbook-title="@Gunakarna"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><link rel="shortcut icon" href="apple-touch-icon.png"><meta name="apple-mobile-web-app-title" content="Koji"><meta name="application-name" content="Koji"><meta name="theme-color" content="#ffffff"><meta name="theme-color" content="#b1624d"><style>/*! sanitize.css v4.1.0 | CC0 License | github.com/jonathantneal/sanitize.css */
+
+/* Display definitions
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+
+article,
+aside,
+details, /* 1 */
+figcaption,
+figure,
+footer,
+header,
+main, /* 2 */
+menu,
+nav,
+section,
+summary { /* 1 */
+	display: block;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+audio,
+canvas,
+progress,
+video {
+	display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+
+template, /* 1 */
+[hidden] {
+	display: none;
+}
+
+/* Elements of HTML (https://www.w3.org/TR/html5/semantics.html)
+   ========================================================================== */
+
+/**
+ * 1. Remove repeating backgrounds in all browsers (opinionated).
+ * 2. Add box sizing inheritence in all browsers (opinionated).
+ */
+
+*,
+::before,
+::after {
+	background-repeat: no-repeat; /* 1 */
+	box-sizing: inherit; /* 2 */
+}
+
+/**
+ * 1. Add text decoration inheritance in all browsers (opinionated).
+ * 2. Add vertical alignment inheritence in all browsers (opinionated).
+ */
+
+::before,
+::after {
+	text-decoration: inherit; /* 1 */
+	vertical-align: inherit; /* 2 */
+}
+
+/**
+ * 1. Add border box sizing in all browsers (opinionated).
+ * 2. Add the default cursor in all browsers (opinionated).
+ * 3. Add a flattened line height in all browsers (opinionated).
+ * 4. Prevent font size adjustments after orientation changes in IE and iOS.
+ */
+
+html {
+	box-sizing: border-box; /* 1 */
+	cursor: default; /* 2 */
+	font-family: sans-serif; /* 3 */
+	line-height: 1.5; /* 3 */
+	-ms-text-size-adjust: 100%; /* 4 */
+	-webkit-text-size-adjust: 100%; /* 5 */
+}
+
+/* Sections (https://www.w3.org/TR/html5/sections.html)
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+
+body {
+	margin: 0;
+}
+
+/**
+ * Correct the font sizes and margins on `h1` elements within
+ * `section` and `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+	font-size: 2em;
+	margin: .67em 0;
+}
+
+/* Grouping content (https://www.w3.org/TR/html5/grouping-content.html)
+   ========================================================================== */
+
+/**
+ * 1. Correct font sizing inheritance and scaling in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+pre,
+samp {
+	font-family: monospace, monospace; /* 1 */
+	font-size: 1em; /* 2 */
+}
+
+/**
+ * 1. Correct the height in Firefox.
+ * 2. Add visible overflow in Edge and IE.
+ */
+
+hr {
+	height: 0; /* 1 */
+	overflow: visible; /* 2 */
+}
+
+/**
+ * Remove the list style on navigation lists in all browsers (opinionated).
+ */
+
+nav ol,
+nav ul {
+	list-style: none;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * 1. Add a bordered underline effect in all browsers.
+ * 2. Remove text decoration in Firefox 40+.
+ */
+
+abbr[title] {
+	border-bottom: 1px dotted; /* 1 */
+	text-decoration: none; /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+
+b,
+strong {
+	font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+	font-weight: bolder;
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+
+dfn {
+	font-style: italic;
+}
+
+/**
+ * Add the correct colors in IE 9-.
+ */
+
+mark {
+	background-color: #ffff00;
+	color: #000000;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+	vertical-align: baseline;
+}
+
+/**
+ * Correct the font size in all browsers.
+ */
+
+small {
+	font-size: 83.3333%;
+}
+
+/**
+ * Change the positioning on superscript and subscript elements
+ * in all browsers (opinionated).
+ * 1. Correct the font size in all browsers.
+ */
+
+sub,
+sup {
+	font-size: 83.3333%; /* 1 */
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -.25em;
+}
+
+sup {
+	top: -.5em;
+}
+
+/*
+ * Remove the text shadow on text selections (opinionated).
+ * 1. Restore the coloring undone by defining the text shadow (opinionated).
+ */
+
+::-moz-selection {
+	background-color: #b3d4fc; /* 1 */
+	color: #000000; /* 1 */
+	text-shadow: none;
+}
+
+::selection {
+	background-color: #b3d4fc; /* 1 */
+	color: #000000; /* 1 */
+	text-shadow: none;
+}
+
+/* Embedded content (https://www.w3.org/TR/html5/embedded-content-0.html)
+   ========================================================================== */
+
+/*
+ * Change the alignment on media elements in all browers (opinionated).
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+	vertical-align: middle;
+}
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+
+img {
+	border-style: none;
+}
+
+/**
+ * Change the fill color to match the text color in all browsers (opinionated).
+ */
+
+svg {
+	fill: currentColor;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+
+svg:not(:root) {
+	overflow: hidden;
+}
+
+/* Links (https://www.w3.org/TR/html5/links.html#links)
+   ========================================================================== */
+
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove the gaps in underlines in iOS 8+ and Safari 8+.
+ */
+
+a {
+	background-color: transparent; /* 1 */
+	-webkit-text-decoration-skip: objects; /* 2 */
+}
+
+/**
+ * Remove the outline when hovering in all browsers (opinionated).
+ */
+
+a:hover {
+	outline-width: 0;
+}
+
+/* Tabular data (https://www.w3.org/TR/html5/tabular-data.html)
+   ========================================================================== */
+
+/*
+ * Remove border spacing in all browsers (opinionated).
+ */
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* transform-style:  (https://www.w3.org/TR/html5/forms.html)
+   ========================================================================== */
+
+/**
+ * 1. Remove the default styling in all browsers (opinionated).
+ * 3. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+select,
+textarea {
+	background-color: transparent; /* 1 */
+	border-style: none; /* 1 */
+	color: inherit; /* 1 */
+	font-size: 1em; /* 1 */
+	margin: 0; /* 3 */
+}
+
+/**
+ * Correct the overflow in IE.
+ * 1. Correct the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+	overflow: visible;
+}
+
+/**
+ * Remove the inheritance in Edge, Firefox, and IE.
+ * 1. Remove the inheritance in Firefox.
+ */
+
+button,
+select { /* 1 */
+	text-transform: none;
+}
+
+/**
+ * 1. Prevent the WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+html [type="button"], /* 1 */
+[type="reset"],
+[type="submit"] {
+	-webkit-appearance: button; /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+}
+
+/**
+ * Correct the focus styles unset by the previous rule.
+ */
+
+:-moz-focusring {
+	outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the border, margin, and padding in all browsers.
+ */
+
+fieldset {
+	border: 1px solid #c0c0c0;
+	margin: 0 2px;
+	padding: .35em .625em .75em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+	display: table; /* 1 */
+	max-width: 100%; /* 1 */
+	padding: 0; /* 2 */
+	white-space: normal; /* 1 */
+}
+
+/**
+ * 1. Remove the vertical scrollbar in IE.
+ * 2. Change the resize direction on textareas in all browsers (opinionated).
+ */
+
+textarea {
+	overflow: auto; /* 1 */
+	resize: vertical; /* 2 */
+}
+
+/**
+ * Remove the padding in IE 10-.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+	padding: 0;
+}
+
+/**
+ * Correct the cursor style on increment and decrement buttons in Chrome.
+ */
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+	height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+	-webkit-appearance: textfield; /* 1 */
+	outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari for OS X.
+ */
+
+::-webkit-search-cancel-button,
+::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+/**
+ * Correct the text style on placeholders in Chrome, Edge, and Safari.
+ */
+
+::-webkit-input-placeholder {
+	color: inherit;
+	opacity: .54;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+	-webkit-appearance: button; /* 1 */
+	font: inherit; /* 2 */
+}
+
+/* WAI-ARIA (https://www.w3.org/TR/html5/dom.html#wai-aria)
+   ========================================================================== */
+
+/**
+ * Change the cursor on busy elements (opinionated).
+ */
+
+[aria-busy="true"] {
+	cursor: progress;
+}
+
+/*
+ * Change the cursor on control elements (opinionated).
+ */
+
+[aria-controls] {
+	cursor: pointer;
+}
+
+/*
+ * Change the cursor on disabled, not-editable, or otherwise
+ * inoperable elements (opinionated).
+ */
+
+[aria-disabled] {
+	cursor: default;
+}
+
+/* User interaction (https://www.w3.org/TR/html5/editing.html)
+   ========================================================================== */
+
+/*
+ * Remove the tapping delay on clickable elements (opinionated).
+ * 1. Remove the tapping delay in IE 10.
+ */
+
+a,
+area,
+button,
+input,
+label,
+select,
+textarea,
+[tabindex] {
+	-ms-touch-action: manipulation; /* 1 */
+	touch-action: manipulation;
+}
+
+/*
+ * Change the display on visually hidden accessible elements (opinionated).
+ */
+
+[hidden][aria-hidden="false"] {
+	clip: rect(0, 0, 0, 0);
+	display: inherit;
+	position: absolute;
+}
+
+[hidden][aria-hidden="false"]:focus {
+	clip: auto;
+}
+</style><style data-styled="active" data-styled-version="5.3.5">html, body { height: 100%; width: 100%; line-height: 1; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); background-color: rgb(255, 255, 255); }
+body, textarea, input, button { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: rgb(17, 17, 17); }
+body::-webkit-scrollbar { width: 8px; height: 3px; }
+body::-webkit-scrollbar-button { background-color: rgb(255, 255, 255); width: 0px; }
+body::-webkit-scrollbar-track { background-color: rgb(255, 255, 255); }
+body::-webkit-scrollbar-track-piece { background-color: rgb(255, 255, 255); }
+body::-webkit-scrollbar-thumb { height: 50px; background-color: rgb(234, 234, 234); border-radius: 0px; }
+body::-webkit-scrollbar-corner { background-color: rgb(255, 255, 255); }
+body::-webkit-resizer { background-color: rgb(255, 255, 255); }
+body ::-webkit-scrollbar { width: 8px; height: 3px; }
+body ::-webkit-scrollbar-button { background-color: rgb(255, 255, 255); width: 0px; }
+body ::-webkit-scrollbar-track { background-color: rgb(255, 255, 255); }
+body ::-webkit-scrollbar-track-piece { background-color: rgb(255, 255, 255); }
+body ::-webkit-scrollbar-thumb { height: 50px; background-color: rgb(234, 234, 234); border-radius: 0px; }
+body ::-webkit-scrollbar-corner { background-color: rgb(255, 255, 255); }
+body ::-webkit-resizer { background-color: rgb(255, 255, 255); }
+body.dark { background-color: rgb(0, 0, 0); }
+body.dark #app { background-color: rgb(0, 0, 0); }
+body.dark::-webkit-scrollbar { width: 8px; height: 3px; }
+body.dark::-webkit-scrollbar-button { background-color: rgb(0, 0, 0); width: 0px; }
+body.dark::-webkit-scrollbar-track { background-color: rgb(0, 0, 0); }
+body.dark::-webkit-scrollbar-track-piece { background-color: rgb(0, 0, 0); }
+body.dark::-webkit-scrollbar-thumb { height: 50px; background-color: rgb(45, 47, 48); border-radius: 0px; }
+body.dark::-webkit-scrollbar-corner { background-color: rgb(0, 0, 0); }
+body.dark::-webkit-resizer { background-color: rgb(0, 0, 0); }
+body.dark ::-webkit-scrollbar { width: 8px; height: 3px; }
+body.dark ::-webkit-scrollbar-button { background-color: rgb(0, 0, 0); width: 0px; }
+body.dark ::-webkit-scrollbar-track { background-color: rgb(0, 0, 0); }
+body.dark ::-webkit-scrollbar-track-piece { background-color: rgb(0, 0, 0); }
+body.dark ::-webkit-scrollbar-thumb { height: 50px; background-color: rgb(45, 47, 48); border-radius: 0px; }
+body.dark ::-webkit-scrollbar-corner { background-color: rgb(0, 0, 0); }
+body.dark ::-webkit-resizer { background-color: rgb(0, 0, 0); }
+body.scrollBlocked { overflow: hidden; }
+button, input, textarea { outline: none; border: none; appearance: none; background-color: transparent; text-align: left; }
+button { cursor: pointer; user-select: none; padding: 0px; margin: 0px; }
+#app { min-height: 100%; min-width: 100%; }
+p, label { line-height: 1.2em; }
+code { padding: 0px; }
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+textarea { resize: none; }
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button { appearance: none; margin: 0px; }
+* { backface-visibility: hidden; }
+div:focus { outline: none; }
+.intercom-lightweight-app { z-index: 999 !important; }
+.monaco-collaborative-cursor { width: 4px !important; }
+.monaco-collaborative-selection { padding: 3px 0px; }
+.monaco-collaborative-selection.color-0 { background-color: rgb(253, 186, 216); }
+.monaco-collaborative-cursor.color-0 { background: rgb(255, 0, 128); }
+.monaco-collaborative-selection.color-1 { background-color: rgb(187, 222, 251); }
+.monaco-collaborative-cursor.color-1 { background: rgb(13, 71, 161); }
+.monaco-collaborative-selection.color-2 { background-color: rgb(178, 223, 219); }
+.monaco-collaborative-cursor.color-2 { background: rgb(0, 77, 64); }
+.monaco-collaborative-selection.color-3 { background-color: rgb(255, 224, 178); }
+.monaco-collaborative-cursor.color-3 { background: rgb(230, 81, 0); }
+.fICbFt { position: relative; display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; width: 28px; height: 28px; color: rgb(102, 102, 102); will-change: transform; transform: translate3d(0px, 0px, 0px); backface-visibility: hidden; pointer-events: none; }
+.fICbFt svg { animation: 2s linear 0s infinite normal none running fEWCgj; transform-origin: center center; width: 100% !important; height: 100% !important; }
+.fICbFt svg circle { stroke-dasharray: 1, 200; stroke-dashoffset: 0; stroke: currentcolor; transform-origin: center center; animation: 2s ease-in-out 0s infinite normal none running bgPtUW; }
+.guFwPe { position: relative; display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; width: 28px; height: 28px; color: rgb(161, 161, 166); will-change: transform; transform: translate3d(0px, 0px, 0px); backface-visibility: hidden; pointer-events: none; }
+.guFwPe svg { animation: 2s linear 0s infinite normal none running fEWCgj; transform-origin: center center; width: 100% !important; height: 100% !important; }
+.guFwPe svg circle { stroke-dasharray: 1, 200; stroke-dashoffset: 0; stroke: currentcolor; transform-origin: center center; animation: 2s ease-in-out 0s infinite normal none running bgPtUW; }
+.hASxEB { position: relative; display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; width: 60px; height: 60px; color: rgb(255, 255, 255); will-change: transform; transform: translate3d(0px, 0px, 0px); backface-visibility: hidden; pointer-events: none; }
+.hASxEB svg { animation: 2s linear 0s infinite normal none running fEWCgj; transform-origin: center center; width: 100% !important; height: 100% !important; }
+.hASxEB svg circle { stroke-dasharray: 1, 200; stroke-dashoffset: 0; stroke: currentcolor; transform-origin: center center; animation: 2s ease-in-out 0s infinite normal none running bgPtUW; }
+.iYsBEs { width: 100%; height: 100%; min-height: 100%; position: absolute; top: 0px; left: 0px; display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(255, 255, 255); opacity: 1; transition: opacity 0.2s ease-in-out 0s; }
+.iYsBEt { width: 100%; height: 100%; min-height: 100%; position: absolute; top: 0px; left: 0px; display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background-color: rgb(255, 255, 255); opacity: 0; transition: opacity 0.2s ease-in-out 0s; }
+.cAzTZA { z-index: 999999; position: fixed; width: 100vw; height: -webkit-fill-available; min-height: -webkit-fill-available; max-height: -webkit-fill-available; top: 0px; left: 0px; background: transparent; }
+.imawTi { position: absolute; top: calc((100% - 150px) / 2); left: calc((100% - 150px) / 2); width: 150px; height: 150px; cursor: pointer; user-select: none; display: flex; flex-direction: column; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; line-height: 1; text-align: center; backdrop-filter: blur(45px); background: rgba(220, 220, 220, 0.5); border-radius: 13px; }
+.imawTi div { margin-top: -26px; }
+.imawTi span { position: absolute; width: 100%; left: 0px; bottom: 20px; margin-top: 8px; font-size: 18px; height: 20px; font-weight: 500; line-height: 1; color: rgb(17, 17, 17); text-align: center; white-space: nowrap; overflow: hidden; text-transform: capitalize; }
+@-webkit-keyframes fEWCgj { 
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@keyframes fEWCgj { 
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@-webkit-keyframes bgPtUW { 
+  0% { stroke-dasharray: 1, 200; stroke-dashoffset: 0; }
+  50% { stroke-dasharray: 89, 200; stroke-dashoffset: -35px; }
+  100% { stroke-dasharray: 89, 200; stroke-dashoffset: -124px; }
+}
+@keyframes bgPtUW { 
+  0% { stroke-dasharray: 1, 200; stroke-dashoffset: 0; }
+  50% { stroke-dasharray: 89, 200; stroke-dashoffset: -35px; }
+  100% { stroke-dasharray: 89, 200; stroke-dashoffset: -124px; }
+}
+.dpnCLq { width: 100%; height: 100%; border: none; outline: none; position: absolute; overflow: hidden; left: 0px; top: 0px; z-index: 3; display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; }
+.ixMSMj { cursor: pointer; user-select: none; width: 100%; height: 100%; border: none; outline: none; position: absolute; overflow: hidden; left: 0px; top: 0px; z-index: 4; opacity: 0; }
+.ixMSMO { cursor: pointer; user-select: none; width: 100%; height: 100%; border: none; outline: none; position: absolute; overflow: hidden; left: 0px; top: 0px; z-index: 4; opacity: 1; }
+.ixqgcx { position: fixed; width: 100%; height: 100%; inset: 0px; z-index: 9999; pointer-events: none; }
+.jzoskd { cursor: pointer; user-select: none; position: relative; height: 100%; width: 100%; display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; }
+.gTUUlp { cursor: pointer; user-select: none; position: relative; height: 100%; width: 100%; }
+.kPUwwa { width: 250px; height: 100%; max-height: 600px; position: relative; }
+.bsvsic { width: 250px; height: 100%; max-height: 600px; transform: translateX(142px) translateY(395px) translateZ(0px); position: absolute; top: 0px; left: 0px; }
+.ezNPoE { width: 250px; height: 100%; max-height: 600px; transform: translateX(215px) translateY(129px) translateZ(0px); position: absolute; top: 0px; left: 0px; }
+.euXTDt { width: 250px; height: 100%; max-height: 600px; transform: translateX(304px) translateY(129px) translateZ(0px); position: absolute; top: 0px; left: 0px; }
+.ucsVd { overflow: hidden; top: 0px; left: 0px; width: 100%; height: 0px; will-change: height; transform-origin: center center; background: rgba(255, 255, 255, 0.8); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 32px 8px; color: rgb(17, 17, 17); font-size: 16px; border-radius: 13px; position: relative; }
+.ucsVd::after { content: ""; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; border-radius: 13px; border: 1px solid transparent; }
+.iXumbB { overflow: hidden; top: 0px; left: 0px; width: 100%; height: 0px; will-change: height; transform-origin: 0px 0px; background: rgba(255, 255, 255, 0.8); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 32px 8px; color: rgb(17, 17, 17); font-size: 16px; border-radius: 13px; position: relative; }
+.iXumbB::after { content: ""; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; border-radius: 13px; border: 1px solid transparent; }
+.EhapY { overflow: hidden; top: 0px; left: 0px; width: 100%; height: 0px; will-change: height; transform-origin: 89px 0px; background: rgba(255, 255, 255, 0.8); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 32px 8px; color: rgb(17, 17, 17); font-size: 16px; border-radius: 13px; position: relative; }
+.EhapY::after { content: ""; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; border-radius: 13px; border: 1px solid transparent; }
+.fHbTDS { height: 2px; position: absolute; top: 0px; overflow: hidden; z-index: 2; width: 100%; left: 0px; }
+.bTsrnf { position: absolute; top: 0px; left: 0px; width: 100%; height: 2px; background: rgb(0, 122, 255); }
+.kEnmdA { position: absolute; width: 44px; height: 44px; z-index: 99; top: 12px; right: 16px; }
+.bwfzjO { width: 32px; height: 32px; }
+.ljvNoY { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; background: rgba(0, 0, 0, 0.5); backdrop-filter: blur(45px); border-radius: 3px; }
+.ljvNoY * { pointer-events: none; }
+.ljvNoY svg { color: white; width: 24px; height: 24px; }
+.eYrUUx { width: 100%; position: absolute; top: 0px; }
+.efDaAV { cursor: pointer; user-select: none; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; background-color: black; display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; z-index: 3; overflow: hidden; backface-visibility: hidden; transform-origin: center top; }
+.iNhqWu { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; }
+body { background: rgb(0, 0, 0); }
+.jTjxwu { position: absolute; top: 0px; left: 0px; width: 100%; height: -webkit-fill-available; min-height: -webkit-fill-available; background: rgb(17, 17, 17); overflow: hidden; display: flex; flex-direction: column; touch-action: manipulation; }
+.gSSwJV { cursor: pointer; user-select: none; position: relative; height: 100%; width: 100%; margin: 0px auto; background: rgb(17, 17, 17); z-index: 3; display: flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; }
+.hpJWCJ { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 8; overflow: hidden; background: black; pointer-events: none; }
+.hpJWCJ img { position: absolute; height: 100%; top: 0px; opacity: 0.5; object-fit: cover; object-position: center center; overflow: hidden; width: 700px; left: calc((100% - 700px) / 2); }
+@media (max-width: 767px) {
+  .hpJWCJ img { width: 100%; left: 0px; }
+}</style><title>@Gunakarna</title><link rel="canonical" href="https://withkoji.com/@Gunakarna" data-react-helmet="true"><meta property="og:url" content="https://withkoji.com/@Gunakarna" data-react-helmet="true"><meta property="og:type" content="website" data-react-helmet="true"><meta property="og:site_name" content="Koji" data-react-helmet="true"><meta name="twitter:site" content="@madewithkoji" data-react-helmet="true"><meta name="twitter:card" content="summary_large_image" data-react-helmet="true"><meta name="canonicalURL" content="https://withkoji.com/@Gunakarna" data-react-helmet="true"><style type="text/css">@font-face { font-family: Roboto; src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf"); }</style><meta http-equiv="origin-trial" content="A751Xsk4ZW3DVQ8WZng2Dk5s3YzAyqncTzgv+VaE6wavgTY0QHkDvUTET1o7HanhuJO8lgv1Vvc88Ij78W1FIAAAAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A751Xsk4ZW3DVQ8WZng2Dk5s3YzAyqncTzgv+VaE6wavgTY0QHkDvUTET1o7HanhuJO8lgv1Vvc88Ij78W1FIAAAAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjgwNjUyNzk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><style data-jss="" data-meta="MuiSvgIcon">
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+.MuiSvgIcon-colorPrimary {
+  color: #3f51b5;
+}
+.MuiSvgIcon-colorSecondary {
+  color: #f50057;
+}
+.MuiSvgIcon-colorAction {
+  color: rgba(0, 0, 0, 0.54);
+}
+.MuiSvgIcon-colorError {
+  color: #f44336;
+}
+.MuiSvgIcon-colorDisabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+.MuiSvgIcon-fontSizeInherit {
+  font-size: inherit;
+}
+.MuiSvgIcon-fontSizeSmall {
+  font-size: 1.25rem;
+}
+.MuiSvgIcon-fontSizeLarge {
+  font-size: 2.1875rem;
+}
+</style><link rel="alternate" type="application/json+oembed" href="https://embeds.withkoji.com/oembed?url=https%3A%2F%2Fwithkoji.com%2F%40Gunakarna&amp;format=json" title="@Gunakarna" data-react-helmet="true"><meta name="description" content="" data-react-helmet="true"><meta name="keywords" content="" data-react-helmet="true"><meta property="og:image" content="https://images.koji-cdn.com/generic/eWjGMdZSTJP215wiSJri3ohC2mD2_1655971277330.jpg?w=500&amp;h=500&amp;fit=fill" data-react-helmet="true"><meta property="og:image:url" content="https://images.koji-cdn.com/generic/eWjGMdZSTJP215wiSJri3ohC2mD2_1655971277330.jpg?w=500&amp;h=500&amp;fit=fill" data-react-helmet="true"><meta property="og:image:width" content="500" data-react-helmet="true"><meta property="og:image:height" content="500" data-react-helmet="true"><meta property="og:title" content="@Gunakarna" data-react-helmet="true"><meta property="og:description" content="" data-react-helmet="true"><meta name="twitter:title" content="@Gunakarna" data-react-helmet="true"><meta name="twitter:description" content="" data-react-helmet="true"><meta name="twitter:image" content="https://images.koji-cdn.com/generic/eWjGMdZSTJP215wiSJri3ohC2mD2_1655971277330.jpg?w=500&amp;h=500&amp;fit=fill" data-react-helmet="true"><link rel="icon" href="291fb0e5107f9a6a51038a86021451637d345301.png"><link rel="apple-touch-icon" href="https://images.koji-cdn.com/generic/eWjGMdZSTJP215wiSJri3ohC2mD2_1655971277330.jpg?w=180&amp;h=180&amp;fit=fill" sizes="180x180"><link rel="manifest" href="https://rest.koji-api.com/v1/profile/Gunakarna/site.webmanifest"></head><body class=""><noscript>If you're seeing this message, that means <strong>JavaScript has been disabled on your browser</strong>, please <strong>enable JS</strong> to make this app work.</noscript><div id="app"><div class="ViewProfile__Wrapper-sc-1c4o5uf-0 jTjxwu"><div class="ViewProfile__Container-sc-1c4o5uf-1 gSSwJV"><div class="ProgressBar__Container-sc-ji6gts-0 fHbTDS" style="opacity: 0;"><div class="ProgressBar__Inner-sc-ji6gts-1 bTsrnf" style="transform: translateX(-10%) translateZ(0px);"></div><div class="ProgressBar__Inner-sc-ji6gts-1 bTsrnf" style="transform: translateX(0px) translateZ(0px);"></div></div><div class="Player__Container-sc-igaswm-0 efDaAV" style="border-radius: 0px; transform: none;"><div class="TopBar__FloatingContainer-sc-iccp70-1 eYrUUx"><div class="UserItem__Wrapper-sc-1qt4zrf-0 UserItem__LoggedOutWrapper-sc-1qt4zrf-1 kEnmdA bwfzjO"></div></div><div class="Player__PlayerWrapper-sc-igaswm-1 iNhqWu" style="transform: none;"><iframe class="PlayerFrame-sc-1lzucl-0 ixMSMO koji-player-instance" src="index_1.html#koji-feed-key=profile" allow="accelerometer *;ambient-light-sensor *;camera *;document-domain *;encrypted-media *;geolocation *;gyroscope *;layout-animations *;legacy-image-formats *;magnetometer *;microphone *;midi *;payment *;picture-in-picture *;speaker *;sync-xhr *;usb *;vibrate *;vr" loading="eager"></iframe></div></div></div></div><div></div></div><div></div><div><div class="CaptureLayer__Wrapper-sc-mt1jz3-0 ixqgcx"><div class="CaptureLayer__ControlArea-sc-mt1jz3-1 gTUUlp"><div width="250" class="CaptureLayer__ControlWrapper-sc-mt1jz3-2 euXTDt"><div height="0" class="CaptureLayer__ControlInner-sc-mt1jz3-3 iXumbB" style="transform: scale(0) translateZ(0px);"></div></div></div></div></div><iframe name="__privateStripeMetricsController8750" frameborder="0" allowtransparency="true" scrolling="no" role="presentation" allow="payment *" src="index_2.html#url=https%3A%2F%2Fwithkoji.com%2F%40Gunakarna&amp;title=Koji%20-%20Supercharge%20your%20Link%20in%20Bio%20-%20Koji&amp;referrer=&amp;muid=c281c67a-f050-415f-80d1-7f0809b49781a900fc&amp;sid=NA&amp;version=6&amp;preview=false" aria-hidden="true" tabindex="-1" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; visibility: hidden !important; position: fixed !important; height: 1px !important; pointer-events: none !important; user-select: none !important;"></iframe></body></html>
